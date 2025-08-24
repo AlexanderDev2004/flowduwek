@@ -1,3 +1,4 @@
+import { CalendarDemo } from "@/components/common/calendar";
 import { DarkModeToggle } from "@/components/common/darkmode-toggle";
 import { Button } from "@/components/ui/button";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <DarkModeToggle />
       <h1 className="text-4xl font-bold">Welcome to Flowduwek</h1>
       <Button>ATUR Duwek Mu</Button>
+      <CalendarDemo />
     </div>
   );
 }
